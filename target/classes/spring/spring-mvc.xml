@@ -37,14 +37,14 @@
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
 
     <!-- 拦截器 -->
-<!--    <mvc:interceptors>-->
-<!--        <mvc:interceptor>-->
-<!--            <mvc:mapping path="/*"/>-->
-<!--            <bean class="com.agile.interceptor.ToLoginInterceptor"/>-->
-<!--        </mvc:interceptor>-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/*"/>
+            <bean class="com.agile.interceptor.ToLoginInterceptor"/>
+        </mvc:interceptor>
 <!--        <mvc:interceptor>-->
 <!--            <mvc:mapping path="/*"/>-->
 <!--            <bean class="cn.wmyskxz.interceptor.OtherInterceptor"/>-->
 <!--        </mvc:interceptor>-->
-<!--    </mvc:interceptors>-->
+    </mvc:interceptors>
 </beans>

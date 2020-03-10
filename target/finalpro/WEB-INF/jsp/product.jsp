@@ -272,7 +272,7 @@
                     if ("success" == result) {
                         var product_id = ${product.id};
                         var num = $(".productNumberSetting").val();
-                        var addCartpage = "/addCart";
+                        var addCartpage = "./addCart";
                         $.get(
                             addCartpage,
                             {"product_id": product_id, "num": num},
@@ -399,11 +399,11 @@
                 <%--});--%>
 
                 function buyLink() {
-                    window.location = "/buyone?product_id="+${product.id}+
+                    window.location = "./buyone?product_id="+${product.id}+
                     "&number=" + $("#number").val();
                 }
                 function addCartLink() {
-                    window.location = "/addCart?product_id="+${product.id}+"&number="+$("#number").val();
+                    window.location = "./addCart?product_id="+${product.id}+"&number="+$("#number").val();
                 }
             </script>
             <div class="buyDiv">

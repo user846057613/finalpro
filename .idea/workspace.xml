@@ -6,7 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e9d188-780f-46a1-b882-890ce4231406" name="Default Changelist" comment="" />
+    <list default="true" id="b8e9d188-780f-46a1-b882-890ce4231406" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error_404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/404_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/finalpro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/hot-word-con.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/hot-word-con.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/mini-search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/mini-search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/hot-word-con.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/hot-word-con.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/mini-search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/mini-search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +51,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -41,22 +73,26 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LearnWeb\finalpro\src\main\webapp\img" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.agile.pojo.example" />
       <recent name="com.agile.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LearnWeb\finalpro\src\main\webapp\WEB-INF\jsp\error" />
       <recent name="D:\LearnWeb\finalpro\src\main\webapp\img\product\4" />
       <recent name="D:\LearnWeb\finalpro\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\LearnWeb\finalpro\src\main\resources\mapper" />
       <recent name="D:\LearnWeb\finalpro\src\main\java\com\agile\pojo\example" />
-      <recent name="D:\LearnWeb\finalpro\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,11 +109,12 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.30">
     <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (2)" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/finalpro/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="finalpro:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/finalpro" />
           </settings>
         </artifact>
       </deployment>
@@ -240,10 +277,29 @@
       <workItem from="1581643952138" duration="22727000" />
       <workItem from="1581730501703" duration="27069000" />
       <workItem from="1582088732204" duration="1128000" />
+      <workItem from="1582162214148" duration="19000" />
+      <workItem from="1583146168971" duration="2050000" />
+      <workItem from="1583320688752" duration="1743000" />
+      <workItem from="1583457740816" duration="24000" />
+      <workItem from="1583579461873" duration="4800000" />
+      <workItem from="1583838808363" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -46,19 +46,19 @@
         <div class="filter">
             <a class="fSort"
                <c:if test="${'all'==param.sort||empty param.sort}">class="fSort-cur"</c:if>
-               href="/sortProduct?sort=all&keyword=${param.keyword}">综合</a>
+               href="./sortProduct?sort=all&keyword=${param.keyword}">综合</a>
             <a class="fSort"
                <c:if test="${'reviewCount'==param.sort}">class="fSort-cur"</c:if>
-               href="/sortProduct?sort=reviewCount&keyword=${param.keyword}">人气</a>
+               href="./sortProduct?sort=reviewCount&keyword=${param.keyword}">人气</a>
             <a class="fSort"
                <c:if test="${'date'==param.sort}">class="fSort-cur"</c:if>
-               href="/sortProduct?sort=date&keyword=${param.keyword}">新品</a>
+               href="./sortProduct?sort=date&keyword=${param.keyword}">新品</a>
             <a class="fSort"
                <c:if test="${'sale'==param.sort}">class="fSort-cur"</c:if>
-               href="/sortProduct?sort=sale&keyword=${param.keyword}">销量</a>
+               href="./sortProduct?sort=sale&keyword=${param.keyword}">销量</a>
             <a class="fSort"
                <c:if test="${'price'==param.sort}">class="fSort-cur"</c:if>
-               href="/sortProduct?sort=price&keyword=${param.keyword}">价格</a>
+               href="./sortProduct?sort=price&keyword=${param.keyword}">价格</a>
         </div>
         <div style="clear: both;"></div>
 

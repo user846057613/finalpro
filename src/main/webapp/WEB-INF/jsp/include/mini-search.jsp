@@ -100,7 +100,7 @@
 <div class="workArea">
     <div class="headerCon">
         <div class="logo">
-            <a href="/home">
+            <a href="./home">
                 <img src="img/fore/tmallLogo.png" id="logo">
             </a>
         </div>
