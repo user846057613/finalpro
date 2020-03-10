@@ -7,34 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e9d188-780f-46a1-b882-890ce4231406" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error_404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/404_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/finalpro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/hot-word-con.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/hot-word-con.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/mini-search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/mini-search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/hot-word-con.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/hot-word-con.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/mini-search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/mini-search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +255,7 @@
       <workItem from="1583320688752" duration="1743000" />
       <workItem from="1583457740816" duration="24000" />
       <workItem from="1583579461873" duration="4800000" />
-      <workItem from="1583838808363" duration="848000" />
+      <workItem from="1583838808363" duration="1338000" />
     </task>
     <servers />
   </component>
