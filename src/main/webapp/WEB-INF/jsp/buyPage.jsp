@@ -343,7 +343,7 @@
                 <tbody class="productListTableTbody">
                 <c:forEach items="${orderItems}" var="oi" varStatus="st">
                     <tr class="orderItemTR">
-                        <td class="orderItemFirstTD"><img class="orderItemImg" src="./img/product/${oi.product_id}/1.jpg">
+                        <td class="orderItemFirstTD"><img class="orderItemImg" src="./${oi.product.productImages.get(0).src}">
                         </td>
                         <td class="orderItemProductInfo">
                             <a href="foreproduct?pid=${oi.product_id}" class="orderItemProductLink">

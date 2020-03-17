@@ -1,5 +1,6 @@
 package com.agile.service;
 
+import com.agile.pojo.Product;
 import com.agile.pojo.PropertyValue;
 
 import java.util.List;
@@ -57,4 +58,8 @@ public interface PropertyValueService {
      * @return
      */
     List<PropertyValue> listByProductId(Integer product_id);
+
+    void fill(List<Product> products);
+
+    void fill(Product product);
 }

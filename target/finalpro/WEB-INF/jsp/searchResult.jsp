@@ -305,7 +305,7 @@
                 <div class="product-iWrap">
                     <div class="productImg-wrap">
                         <a class="productImg" href="./showProduct?product_id=${p.id}">
-                            <img src="./img/product/${p.id}/1.jpg">
+                            <img src="./${p.productImages.get(0).src}">
                         </a>
                     </div>
                     <div style="clear: both;"></div>

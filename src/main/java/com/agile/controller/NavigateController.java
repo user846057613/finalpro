@@ -1,6 +1,8 @@
 package com.agile.controller;
 
 import com.agile.pojo.Category;
+import com.agile.pojo.Product;
+import com.agile.pojo.ProductImage;
 import com.agile.pojo.ReferalLink;
 import com.agile.service.CategoryService;
 import com.agile.service.ProductService;
@@ -24,10 +26,7 @@ public class NavigateController {
     @RequestMapping("/home")
     public String home(Model model) {
         List<Category> categories = categoryService.list();
-        productService.fill(categories);
-        productService.fillByRow(categories);
         List<ReferalLink> links = referalLinkService.listAll();
-
         model.addAttribute("categories", categories);
         model.addAttribute("links", links);
         return "index";

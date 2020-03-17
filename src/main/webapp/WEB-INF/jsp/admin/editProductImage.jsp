@@ -97,15 +97,14 @@
                                     <tr>
                                         <td>${pi.product_id}</td>
                                         <td>${pi.id}</td>
-                                        <td><img class="col-md-8"
-                                                 src="../img/product/${pi.product_id}/${pi.id%5==0?5:pi.id%5}.jpg"
-                                                 onerror="this.src='../img/product/error.png'"></td>
+                                        <td><img class="col-md-8" width="50%" height="50%" src="../${pi.src}"></td>
                                         <td class="col-md-5">
                                             <form action="updateProductImage" method="post"
                                                   enctype="multipart/form-data">
                                                 <input type="hidden" name="id" value="${pi.id}">
                                                 <input type="hidden" name="product_id"
                                                        value="${pi.product_id}">
+                                                <input type="hidden" name="src" value="${pi.src}">
                                                 <input type="file" name="picture" class="pull-left">
                                                 <input type="submit" class="btn btn-primary pull-right" value="上传">
                                             </form>

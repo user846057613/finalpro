@@ -4,6 +4,7 @@
     <resultMap id="BaseResultMap" type="com.agile.pojo.ProductImage">
         <id column="id" jdbcType="INTEGER" property="id"/>
         <result column="product_id" jdbcType="INTEGER" property="product_id"/>
+        <result column="src" jdbcType="VARCHAR" property="src" />
     </resultMap>
     <sql id="Example_Where_Clause">
         <where>
@@ -36,7 +37,7 @@
         </where>
     </sql>
     <sql id="Base_Column_List">
-        id, product_id
+        id, product_id, src
     </sql>
     <select id="selectByExample" parameterType="com.agile.pojo.example.ProductImageExample" resultMap="BaseResultMap">
         select
@@ -65,8 +66,8 @@
     </delete>
     <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.agile.pojo.ProductImage"
             useGeneratedKeys="true">
-        insert into product_image (product_id)
-        values (#{product_id,jdbcType=INTEGER})
+        insert into product_image (product_id,src)
+        values (#{product_id,jdbcType=INTEGER}, #{src,jdbcType=VARCHAR})
     </insert>
     <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.agile.pojo.ProductImage"
             useGeneratedKeys="true">
@@ -80,6 +81,9 @@
             <if test="product_id != null">
                 #{product_id,jdbcType=INTEGER},
             </if>
+            <if test="src != null">
+                #{src, jdbcType=VARCHAR}
+            </if>
         </trim>
     </insert>
     <update id="updateByPrimaryKeySelective" parameterType="com.agile.pojo.ProductImage">
@@ -88,12 +92,15 @@
             <if test="product_id != null">
                 product_id = #{product_id,jdbcType=INTEGER},
             </if>
+            <if test="src != null">
+                src = #{src,jdbcType=VARCHAR}
+            </if>
         </set>
         where id = #{id,jdbcType=INTEGER}
     </update>
     <update id="updateByPrimaryKey" parameterType="com.agile.pojo.ProductImage">
         update product_image
-        set product_id = #{product_id,jdbcType=INTEGER}
+        set product_id = #{product_id,jdbcType=INTEGER}, src = #{src,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
     </update>
 </mapper>

@@ -5,6 +5,8 @@ public class ProductImage {
 
     private Integer product_id;
 
+    private String src;
+
     public Integer getId() {
         return id;
     }
@@ -20,4 +22,8 @@ public class ProductImage {
     public void setProduct_id(Integer product_id) {
         this.product_id = product_id;
     }
+
+    public String getSrc() { return src;}
+
+    public void setSrc(String src) {this.src = src;}
 }

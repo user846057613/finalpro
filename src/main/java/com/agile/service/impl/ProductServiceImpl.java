@@ -4,7 +4,9 @@ import com.agile.dao.ProductDao;
 import com.agile.pojo.Category;
 import com.agile.pojo.Product;
 import com.agile.pojo.example.ProductExample;
+import com.agile.service.ProductImageService;
 import com.agile.service.ProductService;
+import com.agile.service.PropertyValueService;
 import com.agile.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +21,12 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ReviewService reviewService = null;
+
+    @Autowired
+    private ProductImageService productImageService = null;
+
+    @Autowired
+    private PropertyValueService propertyValueService = null;
 
     @Override
     public void add(Product product) {
@@ -39,6 +47,8 @@ public class ProductServiceImpl implements ProductService {
     public Product get(Integer id) {
         Product product = productDao.selectByPrimaryKey(id);
         product.setReviewCount(reviewService.getCount(id));
+        productImageService.fill(product);
+        propertyValueService.fill(product);
         return product;
     }
 
@@ -46,7 +56,10 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> list(Integer category_id) {
         ProductExample example = new ProductExample();
         example.or().andCategory_idEqualTo(category_id);
-        return productDao.selectByExample(example);
+        List<Product> products = productDao.selectByExample(example);
+        productImageService.fill(products);
+        propertyValueService.fill(products);
+        return products;
     }
 
     @Override
@@ -89,6 +102,9 @@ public class ProductServiceImpl implements ProductService {
         ProductExample example = new ProductExample();
         example.or().andNameLike("%" + keyword + "%");
         example.setOrderByClause("id desc");
-        return productDao.selectByExample(example);
+        List<Product> products = productDao.selectByExample(example);
+        productImageService.fill(products);
+        propertyValueService.fill(products);
+        return products;
     }
 }

@@ -156,7 +156,7 @@
     </div>
 
     <div class="workArea">
-        <img src="/img/fore/tmall-cat.png" class="tmall-cat">
+        <img src="img/fore/tmall-cat.png" class="tmall-cat">
     </div>
     <div class="tmall-copyright">
         <div class="workArea">

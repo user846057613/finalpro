@@ -6,6 +6,7 @@
 
 <style>
     div.aliPayPageDiv{
+
         text-align: center;
         padding-bottom: 40px;
         max-width: 1013px;
@@ -53,7 +54,7 @@
 
     </div>
     <div>
-        <img class="aliPayImg" src="./img/fore/alipay2wei.jpg">
+        <img class="aliPayImg" src="./img/fore/alipay.jpg">
     </div>
 
 

@@ -260,7 +260,7 @@
                             <c:if test="${st.count<=5}">
                                 <a class="grid" href="showProduct?product_id=${p.id}">
                                     <div class="productItem">
-                                        <img class="floor-item-img" src="img/product/${p.id}/1.jpg">
+                                        <img class="floor-item-img" src="./${p.productImages.get(0).src}">
                                         <div class="floor-item-title">${p.name}</div>
                                         <div class="floor-price">${p.price}</div>
                                     </div>
@@ -274,7 +274,7 @@
             </c:if>
         </c:forEach>
         <div class="tm-end">
-            <img src="/img/fore/end.png"/>
+            <img src="img/fore/end.png"/>
         </div>
     </div>
 </div>

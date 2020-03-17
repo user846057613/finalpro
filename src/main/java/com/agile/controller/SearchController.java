@@ -1,8 +1,10 @@
 package com.agile.controller;
 
 import com.agile.pojo.Product;
+import com.agile.pojo.ProductImage;
 import com.agile.pojo.PropertyValue;
 import com.agile.pojo.Review;
+import com.agile.service.ProductImageService;
 import com.agile.service.ProductService;
 import com.agile.service.PropertyValueService;
 import com.agile.service.ReviewService;
@@ -30,6 +32,9 @@ public class SearchController {
     @Autowired
     private PropertyValueService propertyValueService = null;
 
+    @Autowired
+    private ProductImageService productImageService = null;
+
     @RequestMapping("/searchProduct")
     public String search(Model model, String keyword) {
         PageHelper.offsetPage(0, 20);
@@ -45,11 +50,8 @@ public class SearchController {
     public String show(Model model, Integer product_id){
         Product product = productService.get(product_id);
         model.addAttribute("product", product);
-        List<PropertyValue> propertyValues = propertyValueService.listByProductId(product_id);
-        model.addAttribute("propertyValues", propertyValues);
         List<Review> reviews = reviewService.listByProductId(product_id);
         model.addAttribute("reviews", reviews);
-
         return "product";
     }
 

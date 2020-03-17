@@ -1,6 +1,7 @@
 package com.agile.service.impl;
 
 import com.agile.dao.ProductImageDao;
+import com.agile.pojo.Product;
 import com.agile.pojo.ProductImage;
 import com.agile.pojo.example.ProductImageExample;
 import com.agile.service.ProductImageService;
@@ -43,7 +44,22 @@ public class ProductImageServiceImpl implements ProductImageService {
     @Override
     public List<ProductImage> list(Integer product_id) {
         ProductImageExample example = new ProductImageExample();
-        example.or().andIdEqualTo(product_id);
+        example.or().andProduct_idEqualTo(product_id);
         return productImageDao.selectByExample(example);
     }
+
+    @Override
+    public void fill(List<Product> products) {
+        for (Product product : products) {
+            fill(product);
+        }
+    }
+
+    @Override
+    public void fill(Product product) {
+        List<ProductImage> lists = this.list(product.getId());
+        product.setProductImages(lists);
+    }
+
+
 }

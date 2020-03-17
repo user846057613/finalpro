@@ -1,5 +1,7 @@
 package com.agile.pojo;
 
+import java.util.List;
+
 public class Product {
     private Integer id;
 
@@ -16,6 +18,26 @@ public class Product {
     private Integer category_id;
 
     private Integer reviewCount;
+
+    private List<ProductImage> productImages;
+
+    private List<PropertyValue> propertyValues;
+
+    public List<ProductImage> getProductImages() {
+        return productImages;
+    }
+
+    public void setProductImages(List<ProductImage> productImages) {
+        this.productImages = productImages;
+    }
+
+    public List<PropertyValue> getPropertyValues() {
+        return propertyValues;
+    }
+
+    public void setPropertyValues(List<PropertyValue> propertyValues) {
+        this.propertyValues = propertyValues;
+    }
 
     public Integer getId() {
         return id;

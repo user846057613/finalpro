@@ -30,7 +30,7 @@ public class ToLoginInterceptor implements HandlerInterceptor {
         String uri = request.getRequestURI();
         String contextPath = request.getContextPath();
         uri = uri.substring(uri.lastIndexOf(contextPath)+contextPath.length());
-        System.out.println(uri);
+//        System.out.println(uri);
         if(Arrays.asList(noNeedAuthPage).contains(uri)) {
             return true;
         }else {

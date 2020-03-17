@@ -2,6 +2,7 @@ package com.agile.service.impl;
 
 import com.agile.dao.PropertyDao;
 import com.agile.dao.PropertyValueDao;
+import com.agile.pojo.Product;
 import com.agile.pojo.Property;
 import com.agile.pojo.PropertyValue;
 import com.agile.pojo.example.PropertyValueExample;
@@ -73,6 +74,19 @@ public class PropertyValueServiceImpl implements PropertyValueService {
         List<PropertyValue> propertyValues = propertyValueDao.selectByExample(example);
         setProperty(propertyValues);
         return propertyValues;
+    }
+
+    @Override
+    public void fill(List<Product> products) {
+        for (Product product : products) {
+            fill(product);
+        }
+    }
+
+    @Override
+    public void fill(Product product) {
+        List<PropertyValue> list = this.listByProductId(product.getId());
+        product.setPropertyValues(list);
     }
 
     public void setProperty(List<PropertyValue> propertyValues) {

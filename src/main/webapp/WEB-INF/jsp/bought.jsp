@@ -317,7 +317,7 @@
                 <c:forEach items="${o.orderItems}" var="oi" varStatus="st">
                     <tr class="orderItemProductInfoPartTR">
                         <td class="orderItemProductInfoPartTD"><img width="80" height="80"
-                                                                    src="./img/product/${oi.product.id}/1.jpg">
+                                                                    src="./${oi.product.productImages.get(0).src}">
                         </td>
                         <td class="orderItemProductInfoPartTD">
                             <div class="orderListItemProductLinkOutDiv">

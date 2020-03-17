@@ -18,6 +18,11 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:spring/spring-*.xml</param-value>
     </init-param>
+    <multipart-config>
+      <location>d:/mvc/images</location>
+      <max-file-size>5242880</max-file-size>
+      <max-request-size>10485760</max-request-size>
+    </multipart-config>
   </servlet>
   <servlet-mapping>
     <servlet-name>dispatcher</servlet-name>

@@ -322,13 +322,11 @@
 <div class="product">
     <div class="imgAndInfo">
         <div class="imgInimgAndInfo">
-            <img class="bigImg" src="/img/product/${product.id}/1.jpg">
+            <img class="bigImg" src="./${product.productImages.get(0).src}">
             <div class="smallImageDiv">
-                <img class="smallImg" src="/img/product/${product.id}/1.jpg" bigImgURL="/img/product/${product.id}/1.jpg">
-                <img class="smallImg" src="/img/product/${product.id}/1.jpg" bigImgURL="./img/product/${product.id}/1.jpg">
-                <img class="smallImg" src="/img/product/${product.id}/1.jpg" bigImgURL="./img/product/${product.id}/1.jpg">
-                <img class="smallImg" src="/img/product/${product.id}/1.jpg" bigImgURL="./img/product/${product.id}/1.jpg">
-                <img class="smallImg" src="/img/product/${product.id}/1.jpg" bigImgURL="./img/product/${product.id}/1.jpg">
+                <c:forEach items="${product.productImages}" var="img">
+                    <img class="smallImg" src="./${img.src}" bigImgURL="./${img.src}">
+                </c:forEach>
                 <div class="img4load hidden"></div>
             </div>
         </div>
@@ -565,14 +563,14 @@
 <div class="productDetailDiv" style="display: block;">
     <div class="productDetailTopPart">
         <a class="productDetailTopPartSelectedLink selected" href="#nowhere">商品详情</a>
-        <a class="productDetailTopReviewLink" href="#nowhere">累计评价 <span>
+        <a class="productDetailTopReviewLink" href="#nowhere">累计评价 <span
                 class="productDetailTopReviewLinkNumber">${product.reviewCount}</span> </a>
     </div>
 
     <div class="productParamterPart">
         <div class="productParamter">产品参数：</div>
         <div class="productParamterList">
-            <c:forEach items="${propertyValues}" var="pvs">
+            <c:forEach items="${product.propertyValues}" var="pvs">
                 <span>${pvs.property.name}:${pvs.value}</span>
             </c:forEach>
         </div>
@@ -587,8 +585,9 @@
     <div class="productReviewTopPart">
         <div class="productReviewTopPart">
             <a class="productReviewTopPartSelectedLink" href="#nowhere">商品详情</a>
-            <a class="selected" href="#nowhere">累计评价 <span
-                    class="productReviewTopReviewLinkNumber">${product.reviewCount}</span> </a>
+            <a class="selected" href="#nowhere">累计评价
+                <span class="productReviewTopReviewLinkNumber">${product.reviewCount}</span>
+            </a>
         </div>
         <div class="productReviewContentPart">
             <c:forEach items="${reviews}" var="r">

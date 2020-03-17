@@ -42,9 +42,5 @@
             <mvc:mapping path="/*"/>
             <bean class="com.agile.interceptor.ToLoginInterceptor"/>
         </mvc:interceptor>
-<!--        <mvc:interceptor>-->
-<!--            <mvc:mapping path="/*"/>-->
-<!--            <bean class="cn.wmyskxz.interceptor.OtherInterceptor"/>-->
-<!--        </mvc:interceptor>-->
     </mvc:interceptors>
 </beans>
