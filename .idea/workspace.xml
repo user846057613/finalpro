@@ -7,81 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e9d188-780f-46a1-b882-890ce4231406" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/fore/alipay.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/controller/NavigateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/controller/NavigateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/controller/ProductImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/controller/ProductImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/interceptor/ToLoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/pojo/ProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/pojo/ProductImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/ProductImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/ProductImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/PropertyValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/PropertyValueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/ProductImageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/ProductImageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/PropertyValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/service/impl/PropertyValueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductImageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProductImage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProductImage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/alipay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/alipay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agile/controller/BuyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agile/controller/BuyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bought.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bought.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/buyPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/buyPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fore/alipay2wei.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/controller/NavigateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/controller/NavigateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/controller/ProductImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/controller/ProductImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/controller/SearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/pojo/ProductImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/pojo/ProductImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/ProductImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/ProductImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/PropertyValueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/PropertyValueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/impl/ProductImageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/impl/ProductImageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/service/impl/PropertyValueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/service/impl/PropertyValueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProductImageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/NavigateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/NavigateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/ProductImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/ProductImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/SearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/interceptor/ToLoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/pojo/ProductImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/pojo/ProductImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/ProductImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/ProductImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/PropertyValueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/PropertyValueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/ProductImageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/ProductImageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/PropertyValueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/service/impl/PropertyValueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/mapper/ProductImageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/admin/editProductImage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/admin/editProductImage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/alipay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/alipay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agile/controller/BuyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agile/controller/BuyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/BuyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/com/agile/controller/BuyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/bought.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/bought.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/buyPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/buyPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/error/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/error/error_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/include/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/searchResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/finalpro/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/finalpro.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/finalpro/img/fore/alipay2wei.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,12 +71,13 @@
   </component>
   <component name="ProjectId" id="1XmBtVp9RP7pDoxXeYtfvawqXKe" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/finalpro/img/fore" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -150,6 +110,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.30">
+    <configuration name="BuyController.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finalpro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agile.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agile.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.agile.controller.BuyController" />
+      <option name="METHOD_NAME" value="createOrder(org.springframework.ui.Model,com.agile.pojo.Order,javax.servlet.http.HttpSession)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (2)" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -298,9 +274,11 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
       <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="JUnit.BuyController.createOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuyController.createOrder" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
@@ -330,7 +308,11 @@
       <workItem from="1584012497861" duration="2880000" />
       <workItem from="1584080540721" duration="10587000" />
       <workItem from="1584358043606" duration="5134000" />
-      <workItem from="1584441649059" duration="5342000" />
+      <workItem from="1584441649059" duration="6152000" />
+      <workItem from="1584492283927" duration="108000" />
+      <workItem from="1584863275501" duration="734000" />
+      <workItem from="1585296174738" duration="1564000" />
+      <workItem from="1585900187424" duration="8080000" />
     </task>
     <servers />
   </component>
@@ -349,5 +331,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/buyPage.jsp</url>
+          <line>249</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

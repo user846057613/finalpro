@@ -296,9 +296,8 @@
             <table class="orderListItemTable" orderStatus="${o.status}" oid="${o.id}">
                 <tr class="orderListItemFirstTR">
                     <td colspan="2">
-                        <b>${o.create_date}</b>
-                        <span>订单号: ${o.order_code}
-                    </span>
+                        <b aria-colspan="1">订单号: ${o.order_code}</b>
+                        <b aria-colspan="2">下单时间：${o.create_date}</b>
                     </td>
                     <td colspan="2"><img width="13px" src="./img/fore/orderItemTmall.png">天猫商场</td>
                     <td colspan="1">
@@ -308,7 +307,7 @@
 
                     </td>
                     <td class="orderItemDeleteTD">
-                        <a class="deleteOrderLink" oid="${o.id}"  href="/deleteOrder?id=${o.id}">
+                        <a class="deleteOrderLink" oid="${o.id}"  href="./deleteOrder?id=${o.id}">
                             <span class="orderListItemDelete glyphicon glyphicon-trash"></span>
                         </a>
 

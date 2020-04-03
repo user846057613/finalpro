@@ -7,7 +7,6 @@ import com.agile.pojo.User;
 import com.agile.service.OrderItemService;
 import com.agile.service.OrderService;
 import com.agile.service.ProductService;
-import com.sun.org.apache.xpath.internal.operations.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Isolation;
@@ -16,9 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttribute;
-import sun.misc.Request;
 
 import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
@@ -58,18 +55,17 @@ public class BuyController {
         Product product = productService.get(product_id);
         int orderItemId = 0;
         boolean found = false;
-
-        List<OrderItem> orderItems = orderItemService.listByUserId(user.getId());
-
-        for (OrderItem orderItem : orderItems) {
-            if(orderItem.getProduct_id() == product_id) {
-                orderItem.setNumber(orderItem.getNumber() + number);
-                orderItemService.update(orderItem);
-                orderItemId = orderItem.getId();
-                found = true;
-                break;
-            }
-        }
+//        List<OrderItem> orderItems = orderItemService.listByUserId(user.getId());
+//
+//        for (OrderItem orderItem : orderItems) {
+//            if(orderItem.getProduct_id() == product_id) {
+//                orderItem.setNumber(orderItem.getNumber() + number);
+//                orderItemService.update(orderItem);
+//                orderItemId = orderItem.getId();
+//                found = true;
+//                break;
+//            }
+//        }
         if(!found) {
             OrderItem orderItem = new OrderItem();
             orderItem.setProduct(product);
@@ -89,28 +85,47 @@ public class BuyController {
         for (String s : orderItemId) {
             int id = Integer.parseInt(s);
             OrderItem orderItem = orderItemService.getById(id);
-            orderItem.setProduct(productService.get(orderItem.getProduct_id()));
             total += orderItem.getProduct().getPrice() * orderItem.getNumber();
             orderItems.add(orderItem);
         }
-
         session.setAttribute("orderItems", orderItems);
         model.addAttribute("total", total);
         return"buyPage";
     }
 
     @RequestMapping("/createOrder")
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
     public String createOrder(Model model, Order order, HttpSession session) {
-        User user = (User) session.getAttribute("user");
-        String orderCode = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
-        order.setOrder_code(orderCode);
-        order.setCreate_date(new Date());
-        order.setUser_id(user.getId());
-        order.setUser(user);
-        order.setStatus(OrderService.waitPay);
         List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("orderItems");
-        float total = orderService.add(order, orderItems);
-        return "redirect:payPage?order_id=" + order.getId() +"&total=" + total;
+        User user = (User) session.getAttribute("user");
+        boolean hasStock = true;
+        int navigateId = 0;
+        synchronized (this) {
+            for(OrderItem item : orderItems) {
+                Product p = productService.get(item.getProduct_id());
+                if(p.getStock() >= item.getNumber()) {
+                    p.setStock(p.getStock() - item.getNumber());
+                    productService.update(p);
+                }else {
+                    navigateId = p.getId();
+                    hasStock = false;
+                    break;
+                }
+            }
+        }
+        if(hasStock == false) {
+            model.addAttribute("msg" , "没有足够的库存");
+            return "redirect: showProduct?product_id=" + navigateId;
+        }else{
+            String orderCode = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
+            order.setOrder_code(orderCode);
+            order.setCreate_date(new Date());
+            order.setUser_id(user.getId());
+            order.setUser(user);
+            order.setStatus(OrderService.waitPay);
+            float total = orderService.add(order, orderItems);
+            return "redirect:payPage?order_id=" + order.getId() +"&total=" + total;
+        }
     }
 
     @RequestMapping("/payed")

@@ -281,10 +281,12 @@
 
 </script>
 <div class="buyPageDiv">
-    <form action="createOrder" method="post">
+    <form action="./createOrder" method="post">
 
         <div class="buyFlow">
-            <img class="pull-left" src="./img/fore/simpleLogo.png">
+            <a href="./home">
+                <img class="pull-left" src="./img/fore/simpleLogo.png">
+            </a>
             <img class="pull-right" src="./img/fore/buyflow.png">
             <div style="clear:both"></div>
         </div>

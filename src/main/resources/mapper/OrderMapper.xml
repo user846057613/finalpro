@@ -9,10 +9,10 @@
         <result column="receiver" jdbcType="VARCHAR" property="receiver"/>
         <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
         <result column="user_message" jdbcType="VARCHAR" property="user_message"/>
-        <result column="create_date" jdbcType="TIMESTAMP" javaType="java.sql.Date" property="create_date"/>
-        <result column="pay_date" jdbcType="TIMESTAMP" javaType="java.sql.Date" property="pay_date"/>
-        <result column="delivery_date" jdbcType="TIMESTAMP" javaType="java.sql.Date" property="delivery_date"/>
-        <result column="confirm_date" jdbcType="TIMESTAMP" javaType="java.sql.Date" property="confirm_date"/>
+        <result column="create_date" jdbcType="TIMESTAMP" javaType="java.util.Date" property="create_date"/>
+        <result column="pay_date" jdbcType="TIMESTAMP" javaType="java.util.Date" property="pay_date"/>
+        <result column="delivery_date" jdbcType="TIMESTAMP" javaType="java.util.Date" property="delivery_date"/>
+        <result column="confirm_date" jdbcType="TIMESTAMP" javaType="java.util.Date" property="confirm_date"/>
         <result column="user_id" jdbcType="INTEGER" property="user_id"/>
         <result column="status" jdbcType="VARCHAR" property="status"/>
     </resultMap>
